@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-arabic: "Cairo", sans-serif;
+
+  --color-brand-gold: #d4af37;
+  --color-brand-cup: #cca300;
+  
+  /* Elegant Dark Theme Palettes */
+  --color-elegant-bg: #07090e;
+  --color-elegant-header: #0f141f;
+  --color-elegant-subbg: #0a0e17;
+  --color-elegant-card: #121826;
+  --color-elegant-header-card: #1c2436;
+  --color-elegant-input: #161e2d;
+  --color-elegant-border: #1e293b;
+
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-sans);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Cairo font override for Arabic body language */
+  html[dir="rtl"] {
+    font-family: var(--font-arabic), var(--font-sans);
+  }
+}
+
+/* Beautiful custom glassy scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.2);
+  border-radius: 9999px;
+  transition: background 0.2s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.4);
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: rgba(30, 41, 59, 0.5);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: rgba(71, 85, 105, 0.7);
+}

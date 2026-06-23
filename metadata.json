@@ -1,0 +1,8 @@
+{
+  "name": "FIFA World Cup Simulator and Predictor",
+  "description": "An interactive, beautiful simulator and predictor for all FIFA World Cup tournaments from 1930 to 2026, supporting both Historical and Prediction modes, multiple languages (Arabic & English), with complete bracket visualizations, third-place play-offs, and 2026's 48-team system with best third-place teams selection.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
