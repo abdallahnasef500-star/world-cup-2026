@@ -654,7 +654,7 @@ export default function App() {
     ctx.font = 'bold 16px "Outfit", "Cairo", sans-serif';
     ctx.fillStyle = '#cca300';
     ctx.textAlign = 'center';
-    ctx.fillText('WORLD CUP SIMULATOR: GOOGLE AI STUDIO BUILD', canvas.width / 2, 920);
+    ctx.fillText('WORLD CUP SIMULATOR: abdallah nasef developer', canvas.width / 2, 920);
 
     ctx.font = '12px "Inter", sans-serif';
     ctx.fillStyle = '#475569';
@@ -2296,7 +2296,7 @@ export default function App() {
       {/* Footer Branding credits block */}
       <footer className="mt-12 py-8 border-t border-slate-200 dark:border-slate-800 text-center text-slate-400 dark:text-slate-500 bg-white dark:bg-elegant-header text-xs font-mono space-y-1 select-none">
         <p>© 2026 FIFA World Cup Predictor & Simulator Engine</p>
-        <p>Google AI Studio Build Integration | Full-Stack client local persistence</p>
+        <p>abdallah nasef | Full-Stack Developer</p>
       </footer>
 
     </div>
